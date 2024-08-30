@@ -1,0 +1,20 @@
+#include "aluno.h"
+
+Aluno::Aluno() {
+  this->ra = -1;
+  this->nome = "";
+};
+
+Aluno::Aluno(int ra, string nome) {
+  this->ra = ra;
+  this->nome = nome;
+}
+
+string Aluno::getNome() const {
+  return nome;
+}
+
+string Aluno::getRa() const {
+  return ra;
+}
+
